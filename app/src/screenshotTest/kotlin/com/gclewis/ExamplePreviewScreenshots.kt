@@ -12,4 +12,12 @@ class ExamplePreviewScreenshots {
             Greeting("Android")
         }
     }
+
+    @Preview(showBackground = true)
+    @Composable
+    fun SecondaryPreview() {
+        ScreenshotTestingTheme {
+            SecondaryScreen()
+        }
+    }
 }
